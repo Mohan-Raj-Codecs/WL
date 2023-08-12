@@ -1,5 +1,5 @@
 # *Front-End Development and Deployement* #
-* ### using ###
+* ### Using ###
     * Docker
     * ngnix image
     * html
