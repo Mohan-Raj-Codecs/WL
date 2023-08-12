@@ -1,0 +1,65 @@
+.container {
+  height: 100vh;
+  width: 95vw !important;
+  max-width: 95vw !important;
+  background: rgb(254, 2, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 2, 54, 1) 32%,
+    rgba(255, 123, 0, 1) 100%
+  );
+}
+.custom-head {
+  padding-left: 50px !important;
+}
+
+.iconics {
+  margin-right: 15px;
+}
+.dot {
+  height: 30%;
+  width: 15%;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  z-index: 10;
+}
+
+.holder span:first-child {
+  left: 250px !important;
+  top: 10px !important;
+}
+.holder span:nth-child(2) {
+  left: 350px !important;
+  top: 100px !important;
+}
+.holder span:nth-child(3) {
+  left:450px !important;
+  top: -10px !important;
+}
+
+.paral {
+	width: 9%;
+	height: 35% ;
+	transform: skew(20deg);
+	background: #f8f8f8;
+    position: relative;
+    display: inline-block;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);   
+}
+
+.parallel span:first-child{
+    left:-21.7%;
+    top:10%;
+}
+
+.parallel span:nth-child(2){
+    left:-12%;
+    top:29%;
+}
+.parallel span:nth-child(3){
+    left:0.9%;
+    top:15%;
+}
